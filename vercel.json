@@ -1,4 +1,9 @@
 {
+    "functions": {
+        "api/**/*": {
+          "maxDuration": 10
+        }
+    },
     "routes": [
         {
             "src": "/",
@@ -7,5 +12,6 @@
     ],
     "env":{
         "VERCEL": "true"
-    }
+    },
+    "regions": ["hkg1"]
 }
